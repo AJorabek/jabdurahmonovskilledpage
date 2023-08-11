@@ -1,0 +1,51 @@
+main {
+  flex-grow: 1;
+}
+// Services section
+.services {
+  margin-top: 30rem;
+}
+.services__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.services__item {
+  margin-bottom: 4rem;
+}
+.sevice__item__img {
+  margin-top: -2.4rem;
+  margin-bottom: 2.4rem;
+}
+.service__item__text {
+  margin-bottom: 5rem;
+  color: $text-color;
+}
+@media screen and (max-width: 824px) {
+  .services {
+    margin-top: 45rem;
+    align-items: center;
+  }
+  .card-1 {
+    width: 100%;
+    max-width: 300px;
+    height: 120px;
+    padding-top: 1rem;
+    padding-bottom: 15rem;
+  }
+  .services__main-title {
+    width: 286px;
+    height: 64px;
+    margin-bottom: 0;
+    font-family: Plus Jakarta Sans;
+    font-style: normal;
+    font-weight: 600;
+  }
+  .services__list {
+    align-items: center;
+  }
+  .services__item__title {
+    margin-bottom: 1.5rem;
+  }
+}
+// Services end

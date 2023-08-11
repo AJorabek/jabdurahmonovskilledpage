@@ -1,0 +1,7 @@
+@mixin buttons($w, $mw, $br, $bgc, $c) {
+  width: $w;
+  max-width: $mw;
+  border-radius: $br;
+  background-color: $bgc;
+  color: $c;
+}
